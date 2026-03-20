@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skay Quiz - Noregresso Miguel & Roxas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Skay Quiz</h1>
+            <p class="credits">By Noregresso Miguel & Roxas</p>
+            <div id="level-display">Niveau : 1 / 500</div>
+        </header>
+
+        <div id="game-zone">
+            <div id="question-counter">Question 1/5</div>
+            <h2 id="question-text">Chargement...</h2>
+            <div id="options-container">
+                </div>
+        </div>
+
+        <div id="result-screen" class="hidden">
+            <h2 id="result-title">Niveau Réussi !</h2>
+            <button onclick="nextLevel()" id="next-btn">Niveau Suivant</button>
+            <button onclick="restartLevel()" id="retry-btn">Réessayer</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
